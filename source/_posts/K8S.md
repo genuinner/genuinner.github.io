@@ -176,7 +176,7 @@ volumes:
 >  docker-compose -f docker-compose.dev.yml up --build
 #### 8. 远程调试
 添加remote jvm debugger并启动连接到docker
-![](K8S/docker-debugger.png)
+![](/images/docker-debugger.png)
 #### 9. CI/CD
 
 #### 10. Registry
@@ -196,7 +196,7 @@ volumes:
 ## K8S
 
 ### K8S架构
-![](components-of-kubernetes.svg)
+![](/images/components-of-kubernetes.svg)
 一个K8S集群由Control Panel(控制平面)和Node(节点)组成。  
 **控制平面**：负责管理工作节点和维护集群状态。  
 **工作节点**：负责执行控制平面分配的任务，运行实际的应用和工作负载。
