@@ -1,6 +1,6 @@
 ---
 title: 容器化
-ahthor: wood
+author: wood
 ---
 ## Linux容器
 ### 什么是LXC
@@ -176,7 +176,7 @@ volumes:
 >  docker-compose -f docker-compose.dev.yml up --build
 #### 8. 远程调试
 添加remote jvm debugger并启动连接到docker
-![](docker-debugger.png)
+![](K8S/docker-debugger.png)
 #### 9. CI/CD
 
 #### 10. Registry
